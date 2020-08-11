@@ -39,7 +39,7 @@ export default function Home() {
     <Container>
       <Head>
         <title>Connor Minielly</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
 
       <Main>
