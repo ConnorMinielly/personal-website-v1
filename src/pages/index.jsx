@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const Main = styled.main`
-  padding: 5rem 0;
+  text-align: center;
   flex: 1;
   display: flex;
   flex-direction: column;
