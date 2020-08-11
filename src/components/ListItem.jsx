@@ -4,8 +4,9 @@ const Anchor = styled.a`
   font-size: 1.75em;
   cursor: pointer;
   margin-top: 1.5em;
-  color: navy;
+  color: snow;
   text-decoration: none;
+  font-weight: bolder;
 `;
 
 const ListItem = ({ children, ...props }) => {
