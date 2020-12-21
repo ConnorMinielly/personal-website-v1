@@ -40,6 +40,7 @@ export default function Home() {
       <Head>
         <title>Connor Minielly</title>
         <link rel="icon" href="/icon.png" />
+        <script data-ad-client="ca-pub-3849203916954418" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       </Head>
 
       <Main>
