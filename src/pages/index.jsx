@@ -37,9 +37,9 @@ export default function Home() {
           <Image
             src="/pinky-promise.png"
             alt="Line art of a pinky promise"
-            width={900}
-            height={675}
-            layout="intrinsic"
+            width={1018}
+            height={800}
+            layout="responsive"
           />
         </div>
       </main>
