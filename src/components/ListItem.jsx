@@ -1,16 +1,11 @@
-import styled from 'styled-components';
-
-const Anchor = styled.a`
-  font-size: 1.75em;
-  cursor: pointer;
-  margin-top: 1.5em;
-  color: snow;
-  text-decoration: none;
-  font-weight: bolder;
-`;
+import { listItem } from "./ListItem.module.scss";
 
 const ListItem = ({ children, ...props }) => {
-  return <Anchor {...props}>{children}</Anchor>;
+  return (
+    <a className={listItem} {...props}>
+      {children}
+    </a>
+  );
 };
 
 export default ListItem;

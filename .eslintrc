@@ -3,10 +3,12 @@
     "airbnb",
     "plugin:import/errors",
     "plugin:react/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
   ],
   "parser": "babel-eslint",
-  "plugins": ["react", "jsx-a11y", "import", "react-hooks"],
+  "plugins": ["prettier", "react", "jsx-a11y", "import", "react-hooks"],
   "env": {
     "es6": true,
     "jest": true,
@@ -17,6 +19,8 @@
     "document": false
   },
   "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-props-no-spreading": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-one-expression-per-line": 0,

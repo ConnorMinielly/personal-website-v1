@@ -1,14 +1,7 @@
-import styled from 'styled-components';
-
-const ListStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-`;
+import { list } from "./List.module.scss";
 
 const List = ({ children }) => {
-  return <ListStyle>{children}</ListStyle>;
+  return <div className={list}>{children}</div>;
 };
 
 export default List;

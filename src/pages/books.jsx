@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import List from "components/List";
 import ListItem from "components/ListItem";
+import { explanation } from "./books.module.scss";
 import {
   container,
   altTitle,
@@ -18,18 +19,20 @@ export default function Home() {
           <h1 className={title}>
             <span className={altTitle}>Connor</span> Minielly
           </h1>
+          <p className={explanation}>
+            So I needed more content on this website for google to take me
+            seriously, so I added excerpts from some classic, public domain,
+            books.
+          </p>
           <List>
-            <ListItem href="https://github.com/ConnorMinielly">
-              github →
-            </ListItem>
-            <ListItem href="https://www.linkedin.com/in/connor-minielly/">
-              linkedIn →
-            </ListItem>
-            <ListItem href="https://www.youtube.com/watch?v=Xd2CNn0Xw-o">
-              animation fundamentals talk →
-            </ListItem>
-            <Link href="/books">
-              <ListItem href="/books">book excerpts →</ListItem>
+            <Link href="/books/alice">
+              <ListItem href="/books/alice">alice in wonderland →</ListItem>
+            </Link>
+            <Link href="/books/ulysses">
+              <ListItem href="/books/ulysses">ulysses →</ListItem>
+            </Link>
+            <Link href="/">
+              <ListItem href="/">← back to home</ListItem>
             </Link>
           </List>
         </div>
