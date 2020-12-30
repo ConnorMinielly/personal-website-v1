@@ -1,5 +1,8 @@
 .bookText {
-  padding: 1.25em 20%;
+  padding: 1em 10%;
+  @media (min-width: 768px) {
+    padding: 1.25em 20%;
+  }
 }
 
 .bookHeader {
