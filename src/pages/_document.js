@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://www.googletagservices.com/" />
           <link rel="preconnect" href="https://tpc.googlesyndication.com/" />
           <script
-            data-ad-client="ca-pub-5049888940124996"
+            data-ad-client="ca-pub-9487519723850650"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
